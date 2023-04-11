@@ -1,0 +1,4 @@
+FROM php:7.2-apache
+RUN apt-get update && apt-get -y install less vim
+ENV AWS_ACCESS_KEY_ID=YourAccessKeyId
+ENV AWS_SECRET_ACCESS_KEY=YourSecretAccessKey

@@ -1,0 +1,4 @@
+vendor
+aws_credentials
+vendor.phar.tar.gz
+Dockerfile
